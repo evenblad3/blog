@@ -9,6 +9,14 @@
 *.log
 *.log.*
 *.sig
-
-pkg/
-src/
+*.sublime-project
+*.sublime-workspace
+*.svg
+*.png
+*.jpg
+*.webm
+*.gif
+*.ico
+*.svg
+*.mp4
+*.mp3

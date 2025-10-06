@@ -3,7 +3,7 @@ title: "Tired Of Email Spam?"
 date: 2025-10-06
 author: "Chris Bradley"
 tags: [spam-control, spam, control, email, mail, gmail, privacy, OPSEC, temp, temporary]
-description: "Sublime Text is very cool!"
+description: "Prevention of email spam control and temporary mail usage."
 readtime: "1min"
 ---
 

@@ -4,7 +4,7 @@ date: 2025-10-21
 author: "Chris Bradley"
 tags: [obfuscate, cyrillic, homoglyph, unicode, glpyhshift, text]
 description: "Make your texts harder to trace with GlpyhShift"
-readtime: "44sec"
+readtime: "1min"
 ---
 
 # Make Your Texts Harder To Trace
@@ -21,7 +21,7 @@ Obfuscated homoglyph text:
 ``` 
 
 > [!NOTE]
-> Please be responsible, I am not encouraging any illegal activites but demonstrating how similar looking letters can be used to create hard-to-detect text variations
+> Please be responsible, I am not encouraging any illegal activites but demonstrating how similar looking letters can be used to create hard-to-detect text variations.
 
 ## Using Letters From Different Languages
 A lot of letters from other languages are similar to English letters, like the following example.
@@ -32,9 +32,27 @@ A lot of letters from other languages are similar to English letters, like the f
 |C|С|
 |D|||Ď|
 |E|Е|Ε
+
 [[source]](https://en.wikipedia.org/wiki/Wikipedia:Language_recognition_chart)
 
 There is actually a lot more letters than you think, which will make the text harder to trace.
 
 ## GlyphShift
 What if there was a tool to automatically change the given text and obfuscates them? That's why [GlyphShift](https://github.com/evenblad3/GlyphShift) exists! The tool automatically copies the given normal text into the one we want.
+
+Clone the repo:
+```bash
+git clone https://github.com/evenblad3/GlyphShift
+```
+
+Compille with this command:
+```bash
+g++ main.cpp -o main.exe
+```
+
+And finally run:
+```bash
+main.exe
+```
+
+And now it asks for your input, enter your text and the result will be automatically copied to your clipboard.

@@ -91,7 +91,7 @@ If you don't want any confirmations to remove a folder pass the `/Q` flag
 rmdir mylovelyfolder /S /Q
 ```
 
-## `color`Change Console Colors
+## `color` - Change Console Colors
 Changes the console foreground and background colors.
 ```bash
 color a # Bright green
